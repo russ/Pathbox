@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PATHBOX jquery Plugin</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css" media="screen" charset="utf-8">
+  </head>
+  <body>
+    <div id="images">
+      <div class="pathbox" data-image="images/medium_drink.jpg">
+        <h3 class="words">Sample Drink</h3>
+      </div>
+      <div class="pathbox">
+        <h3 class="words">Sample Drink</h3>
+      </div>
+      <div class="pathbox" data-image="images/medium_drink.jpg">
+        <h3 class="words">Sample Drink</h3>
+      </div>
+    </div>
+
+    <script charset="utf-8" src="../vendor/jquery.js"></script>
+    <script charset="utf-8" src="../lib/pathbox.js"></script>
+    <script>
+      $(function() {
+        $(".pathbox").pathbox();
+      });
+    </script>
+  </body>
+</html>

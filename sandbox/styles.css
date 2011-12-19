@@ -1,0 +1,11 @@
+/* BASIC RESET */
+*{margin: 0;padding: 0;}
+body{color: #000000;font-family: Arial, sans-serif;font-size: 14px;background-color: #acacac;}
+a{text-decoration: none;}
+a:hover{text-decoration: underline;}
+a:focus,a:active{outline: none;}
+img{border: none;}
+ul,ol{margin-left: 20px;}
+/* GLOBAL */
+#container{width: 980px;margin: 20px auto;background-color: #ffffff;border: 1px solid #666666;padding: 20px;}
+#testbtn{margin-top:10px;}

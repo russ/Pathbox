@@ -1,0 +1,10 @@
+{
+  "name": "pathbox",
+  "version": "0.0.1",
+  "library": "jquery",
+  "authors": "Who wrote this?",
+  "summary": "A short summary.",
+  "description": "A longer description.",
+  "website": "URL for this plugin.",
+  "documentation": "URL for the documentation."
+}
